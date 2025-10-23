@@ -1,0 +1,82 @@
+.navigation-container1 {
+  display: contents;
+}
+ 
+.navigation-container2 {
+  display: none;
+}
+ 
+.navigation-container3 {
+  display: contents;
+}
+ 
+.navigation-container4 {
+  display: none;
+}
+ 
+.navigation-container5 {
+  display: contents;
+}
+ 
+.navigation-container6 {
+  display: none;
+}
+ 
+.navigation-container7 {
+  display: contents;
+}
+ 
+.navigation-navigationlogo-helmi {
+  color: var(--color-on-surface);
+  transition: color var(--animation-duration-fast)
+      var(--animation-curve-primary);
+}
+ 
+.navigation-navigationlogo-divider {
+  width: 2px;
+  height: 1.2em;
+  opacity: 0.6;
+  animation: navigation-pulse 3s var(--animation-curve-primary) infinite;
+  background: linear-gradient(
+      180deg,
+      transparent 0%,
+      var(--color-primary) 50%,
+      transparent 100%
+    );
+}
+ 
+.navigation-navigationlogo-visuals {
+  color: var(--color-on-surface-secondary);
+  transition: color var(--animation-duration-fast)
+      var(--animation-curve-primary);
+  font-weight: var(--font-weight-regular);
+}
+ 
+.navigation-navigationtoggle-icon1 {
+  top: 50%;
+  left: 50%;
+  color: var(--color-on-surface);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: opacity var(--animation-duration-fast)
+        var(--animation-curve-primary),
+      transform var(--animation-duration-standard)
+        var(--animation-curve-primary);
+}
+ 
+.navigation-navigationtoggle-icon2 {
+  top: 50%;
+  left: 50%;
+  color: var(--color-on-surface);
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: opacity var(--animation-duration-fast)
+        var(--animation-curve-primary),
+      transform var(--animation-duration-standard)
+        var(--animation-curve-primary);
+}
