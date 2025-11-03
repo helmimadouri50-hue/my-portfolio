@@ -74,8 +74,7 @@ Includes theme switcher and responsive UI.
 
 ## 📫 Contact Me
 
-- 📧 *your.email@example.com*  
-- 💼 [LinkedIn](https://linkedin.com/in/your-profile)  
+- 📧 helmimadouri50@gmail.com   
 - 🌐 [GitHub](https://github.com/helmimadouri50-hue)  
 - 🎥 Also available for short video editing collaborations.
 
@@ -96,3 +95,4 @@ git commit -m "Profile README"
 git branch -M main
 git remote add origin https://github.com/helmimadouri50-hue/helmimadouri50-hue.git
 git push -u origin main
+
